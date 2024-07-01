@@ -39,5 +39,12 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://myusername.github.io/"
+  "homepage": "https://adityahirparadev.github.io/adrx",
+  "devDependencies": {
+    "@babel/cli": "^7.24.7",
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "@babel/preset-react": "^7.24.7",
+    "babel-loader": "^9.1.3"
+  }
 }
