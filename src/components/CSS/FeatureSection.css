@@ -1,0 +1,42 @@
+.feature-section {
+  padding: 0 80px;
+  min-height: 60vh;
+
+}
+.feature-section-top {
+  margin: 100px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  /* height: 100px; */
+}
+.feature-section-top h1 {
+  width: 800px;
+  font-size: 60px;
+}
+.feature-section-top img {
+  width: 500px;
+  animation: featureImageTop 0.7s ease-out 0.4s 1 forwards;
+}
+.feature-section-image-bottom {
+  width: 100%;
+  animation: featureImageBottom 0.8s ease-out 0.4s 1 forwards;
+}
+@keyframes featureImageTop{
+  0% {
+    transform: translateX(30px);
+  }
+  100% {
+    transform:translateX(0px);
+    }
+}
+@keyframes featureImageBottom {
+  0% {
+    transform: rotateX(180deg);
+  }
+  100% {
+    transform: rotateX(0deg);
+    }
+}
+
